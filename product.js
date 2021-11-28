@@ -1,0 +1,41 @@
+const product = [{
+    productID:"1",
+    title:"sunscreen",
+    price:"500",
+    category:["sun cream","bla"],
+    companyId:"2",
+    sellerID:["1","2","3"],
+},
+{
+    productID:"2",
+    title:"face wash",
+    price:"300",
+    category:["face wash","bla"],
+    companyId:"1",
+    sellerID:["1","2","3"],
+},
+{
+    productID:"3",
+    title:"shampoo",
+    price:"550",
+    category:["hair wash","bla"],
+    companyId:"3",
+    sellerID:["2","3"],
+},
+{
+    productID:"4",
+    title:"body wash",
+    price:"550",
+    category:["body wash","bla"],
+    companyId:"2",
+    sellerID:["1","3","5"],
+},
+{
+    productID:"5",
+    title:"hair color",
+    price:"400",
+    category:["hair color","bla"],
+    companyId:"4",
+    sellerID:["1","3"],
+},];
+module.exports = product;
